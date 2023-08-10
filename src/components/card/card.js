@@ -16,7 +16,6 @@ function Card(props) {
     else setSwitchChecked(true)
   }, [props.cardStatusForSelectedAccount.status]);
   const handleSwitchChange = () => {
-console.log(props.cardStatusForSelectedAccount.status);   
 
     
   };
@@ -52,10 +51,10 @@ console.log(props.cardStatusForSelectedAccount.status);
       return "Invalid date format";
     }
 
-    // Create a new Date object with the extracted values
+    
     const dateObject = new Date(year, month - 1, day);
 
-    // Use date-fns to format the date to MM/YY
+    
     const formattedDate = dateObject.toLocaleDateString(undefined, {
       year: "2-digit",
       month: "2-digit",
@@ -73,7 +72,6 @@ console.log(props.cardStatusForSelectedAccount.status);
   );
 
   const handleChange = (event, newValue) => {
-    console.log(value);
     if (typeof newValue === "number") {
       setValue(newValue);
     }
@@ -144,7 +142,7 @@ console.log(props.cardStatusForSelectedAccount.status);
           <Switch
             checked={switchChecked}
             onChange={handleSwitchChange}
-            color="success" // Use "primary" color for the switch
+            color="success" 
             value="dynamic-class-name"
           />
           <table className="table">

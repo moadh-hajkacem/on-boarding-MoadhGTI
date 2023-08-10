@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { Select, MenuItem, FormControl, InputLabel, Box } from "@mui/material";
-import dbData from "../../services/CardsMock.json"; // Import the JSON data
+import dbData from "../../services/CardsMock.json"; 
 import Card from "../card/card";
 function Account() {
   const [comptes, setComptes] = useState([]);
@@ -47,7 +47,6 @@ function Account() {
     const cardStatusForSelectedAccount = cards
     .filter((card) => card.cardNumber === selectedCardNumber)
     .map((card) => card);
-console.log("cardForSelectedAccount",cardStatusForSelectedAccount);
 
 
 

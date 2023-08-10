@@ -20,7 +20,7 @@ import ListItemText from "@mui/material/ListItemText";
 import logoattijeri from "../../assets/img/logoattijeri.png";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
-import { Link } from "react-router-dom";
+
 import Account from "../account/account";
 import HistoriqueTransfert from "../historique_transfert/historiqueTransfert";
 const drawerWidth = 240;
@@ -65,7 +65,7 @@ const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
   alignItems: "center",
   padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
+  
   ...theme.mixins.toolbar,
   justifyContent: "flex-start",
 }));
@@ -98,7 +98,7 @@ function Menu() {
             style={{ width: "20%", height: "auto" }}
             alt="logo"
           />{" "}
-          {/* Add the Avatar with orange background */}
+          
           <Typography
             variant="h6"
             noWrap
