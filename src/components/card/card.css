@@ -1,0 +1,63 @@
+/* YourComponent.css */
+.img-container {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: inline-block; /* This allows the container to size based on the image */
+  }
+  
+  .img-text1 {
+    position: absolute;
+    top: 35%;
+    left: 22.5%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+   
+    color: white;
+    
+    padding: 10px 20px;
+  }
+  .img-text2 {
+    position: absolute;
+    top: 50%;
+    left: 22.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    
+    padding: 10px 20px;
+  }
+  .img-text3 {
+    position: absolute;
+    top: 80%;
+    left:9%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    
+    padding: 10px 20px;
+  }
+  .img-text4 {
+    position: absolute;
+    top: 70%;
+    left:17%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    
+    padding: 10px 20px;
+  }
+
+  .tab {
+    /* position: relative; */
+    margin-left: 30%;
+    margin-right: 30%;
+   
+  }
+  
+.key {
+    text-align: left;
+}
+.value{
+    text-align: right;
+}
